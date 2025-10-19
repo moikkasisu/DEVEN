@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Devilish Entertainment — Official Site | Gigs • Music • Videos • News</title>
+  <meta name="description" content="Open-format DJ for 80s-to-current, welcome collaboration with other artists / entertainers." />
+  <link rel="canonical" href="https://www.example.com/" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Social meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Devilish Entertainment — Official Site" />
+  <meta property="og:description" content="Open-format DJ for 80s-to-current, welcome collaboration with other artists / entertainers." />
+  <meta property="og:url" content="https://www.example.com/" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?q=80&w=1600&auto=format&fit=crop" />
+  <meta property="og:locale" content="en_AU" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root{
+      --primary:#d41d6d;
+      --secondary:#0b0012;
+      --light:#ffffff;
+      --muted:#ccc;
+      --accent:#ff005c;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Raleway',sans-serif;background-color:var(--secondary);color:var(--light);line-height:1.6}
+    a{text-decoration:none;color:var(--accent)}
+    a:hover{color:#fff}
+
+    header{background:rgba(0,0,0,0.85);padding:20px 0;position:sticky;top:0;z-index:10;backdrop-filter:blur(6px)}
+    .container{max-width:1200px;margin:auto;padding:0 20px}
+    .nav-inner{display:flex;justify-content:space-between;align-items:center;}
+    .brand{font-size:1.6rem;font-weight:700;letter-spacing:1px;color:var(--light)}
+    .brand span{color:var(--accent)}
+    nav a{margin-left:25px;font-weight:600;color:var(--muted)}
+    nav a:hover{color:var(--light)}
+
+    .hero{background:url('https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;height:100vh;display:flex;align-items:center;justify-content:center;position:relative;text-align:center;color:#fff;overflow:hidden}
+    .hero::after{content:'';position:absolute;inset:0;background:rgba(0,0,0,0.6)}
+    .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at center, rgba(255,0,100,0.3), transparent 60%);mix-blend-mode:screen;animation:pulse 8s infinite alternate ease-in-out;}
+    .hero-content{position:relative;z-index:2;width:90%;max-width:800px}
+    .hero h1{font-size:3.5rem;text-transform:uppercase;letter-spacing:3px;margin-bottom:20px;text-shadow:0 0 20px rgba(255,0,120,0.6)}
+    .hero p{font-size:1.2rem;margin-bottom:30px;color:#eee;text-shadow:0 0 10px rgba(0,0,0,0.8)}
+    .btn{padding:12px 25px;border:none;border-radius:5px;font-weight:700;cursor:pointer;transition:background .3s ease,transform .2s ease}
+    .btn-primary{background:var(--accent);color:#fff;box-shadow:0 0 15px rgba(255,0,90,0.5)}
+    .btn-primary:hover{background:#fff;color:#000;transform:translateY(-3px)}
+
+    section{padding:80px 0;text-align:center}
+    section h2{font-size:2.4rem;margin-bottom:30px;color:var(--accent);text-transform:uppercase;letter-spacing:2px}
+    .about,.contact{background:#14001e}
+    footer{background:#000;color:var(--muted);padding:30px 0;text-align:center;font-size:0.9rem}
+
+    @keyframes pulse{
+      0%{opacity:0.5;transform:scale(1)}
+      100%{opacity:1;transform:scale(1.1)}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav-inner">
+      <div class="brand">Devilish <span>Entertainment</span></div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#music">Music</a>
+        <a href="#videos">Videos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Devilish Entertainment</h1>
+      <p>Open-format DJ for 80s-to-current, welcoming collaborations with other artists and entertainers.</p>
+      <a href="#contact" class="btn btn-primary">Book Now</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About</h2>
+      <p>Devilish Entertainment delivers unforgettable sets that blend 80s classics, 90s grooves, and today’s high-energy hits. A neon-lit fusion of rhythm, charisma, and cabaret-inspired fun — perfect for vibrant nights and crowd-loving energy.</p>
+    </div>
+  </section>
+
+  <section id="music">
+    <div class="container">
+      <h2>Music</h2>
+      <p>Experience captivating mixes that spark movement and connection. From retro vibes to modern beats, Devilish Entertainment brings a unique neon-club energy to every show.</p>
+    </div>
+  </section>
+
+  <section id="videos">
+    <div class="container">
+      <h2>Videos</h2>
+      <p>Watch high-energy nightclub and cabaret-inspired performances that light up the stage and dance floor.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>For bookings, partnerships, or artist collaborations, reach out and let’s create something unforgettable together.</p>
+      <a href="mailto:info@devilishentertainment.com" class="btn btn-primary">Email Us</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      © <span id="y"></span> Devilish Entertainment. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
